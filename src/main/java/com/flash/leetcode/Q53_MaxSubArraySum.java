@@ -28,10 +28,10 @@ public class Q53_MaxSubArraySum {
         Q53_MaxSubArraySum solution = new Q53_MaxSubArraySum();
 
         int[] nums = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println(solution.maxSubArray(nums));
+        System.out.println(solution.maxSubArray(nums)); // 6
 
         nums = new int[]{6, -1, 9, 3, -2, 0, -8, 4, 7, 1};
-        System.out.println(solution.maxSubArray(nums));
+        System.out.println(solution.maxSubArray(nums)); // 19
     }
 
 }
