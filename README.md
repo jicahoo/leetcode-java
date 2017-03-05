@@ -13,6 +13,7 @@ As title. There is also Python version, see repo: pythonalgr.
 
 ## Q136: I tried about 3 times to finish it.
 * Use the pen to write done every loop. Loop check condition, Loop initial var status, Loop Action, Loop Update.
+
 ```text
 Loop: <Condition for continue>
     <Vars values in this timpe loop>
@@ -24,3 +25,27 @@ Loop 1: XXX
 Loop 2: Complete(condition is not satisfied)
 ```
 
+
+## Q451: Use bucket sort.
+* More details check source code. 
+```java
+        /**
+         * Follow the Solutions. Use bucket sort.
+         * Time Complexity: O(n)
+         * Space Complexity: O(n).
+         *
+         * The bucket sort in this solution have two important attributes:
+         * 1. It is like a map.
+         * 2. It is also have order.
+         * With these two attributes, it bring us the performance.
+         * Comparing with map, the key is not in order, unless use TreeHashMap,
+         * even use TreeMap, you have to build the tree with O(nlgn) time compexity. Still slower.
+         *
+         * Reference: https://www.byvoid.com/zhs/blog/sort-radix
+         *
+         * @param s
+         * @return
+         */
+        public String frequencySort(String s) {
+```
+* Refernce https://www.byvoid.com/zhs/blog/sort-radix 
