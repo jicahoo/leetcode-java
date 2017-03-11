@@ -49,3 +49,7 @@ Loop 2: Complete(condition is not satisfied)
         public String frequencySort(String s) {
 ```
 * Refernce https://www.byvoid.com/zhs/blog/sort-radix 
+
+## Q224. Basic calculator
+* Use two stacks to simulate the way human's brain how to compute the expression.
+* One stack is for operand, another stack is for operators. It is binary operation.
