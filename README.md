@@ -1,6 +1,10 @@
 # leetcode-java
 As title. There is also Python version, see repo: pythonalgr.
 
+## Q5: Longest palindromic sub string.
+* Result: beat 32%. Time Complexity: O(n*n), Space Complexity: O(1)
+* Better solution?
+
 ## Q22: TODO
 * My way is too ugly. There is more concise and efficient way.
 
@@ -33,6 +37,10 @@ Loop 2: Complete(condition is not satisfied)
 ## Q224. Basic calculator
 * Use two stacks to simulate the way human's brain how to compute the expression.
 * One stack is for operand, another stack is for operators. It is binary operation.
+
+## Q315. TODO: Count of smallest numbers after itself.
+*First try failed: Time Limit Exceeded.
+* TODO.
 
 ## Q451: Use bucket sort.
 * More details check source code. 
