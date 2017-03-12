@@ -25,6 +25,14 @@ Loop 1: XXX
 Loop 2: Complete(condition is not satisfied)
 ```
 
+## Q208. Implement trie tree (a.k.a prefix tree)
+* Result: beats 79%. Complexity Analysis: Time Complexity: insert/search O(len(word)), startsWith: O(len(prefix)). Space complexity: O(number of unique chars in input).
+* I feel that it is easy to implement and should be a Easy question. However, it is marked as Medium.
+* TODO: application of trie tree, suffix tree: http://blog.csdn.net/v_july_v/article/details/6897097 
+
+## Q224. Basic calculator
+* Use two stacks to simulate the way human's brain how to compute the expression.
+* One stack is for operand, another stack is for operators. It is binary operation.
 
 ## Q451: Use bucket sort.
 * More details check source code. 
@@ -50,6 +58,3 @@ Loop 2: Complete(condition is not satisfied)
 ```
 * Refernce https://www.byvoid.com/zhs/blog/sort-radix 
 
-## Q224. Basic calculator
-* Use two stacks to simulate the way human's brain how to compute the expression.
-* One stack is for operand, another stack is for operators. It is binary operation.
