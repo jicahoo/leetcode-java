@@ -8,6 +8,9 @@ As title. There is also Python version, see repo: pythonalgr.
 ## Q22: TODO
 * My way is too ugly. There is more concise and efficient way.
 
+## Q75: TODO
+* Only beats 6% with Time Complexity: O(2n), Space Complexity: O(1)
+
 ## Q94: TODO
 * My way is OK.
 
