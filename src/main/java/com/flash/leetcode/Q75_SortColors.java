@@ -36,16 +36,35 @@ public class Q75_SortColors {
         }
     }
 
+    /**
+     * Beats 64%. Better than above one. Why better than above one?
+     * Time Complexity: O(n). Space Complexity: O(n)
+     */
     public static class SolutionSecond {
         public void sortColors(int[] nums) {
-            //TODO
-
+            if (nums == null || nums.length == 0) {
+                return ;
+            }
+            int[] b = new int[nums.length];
+            int i =0;
+            int j = nums.length - 1;
+            for(int k=0; k < nums.length; k++) {
+                if (nums[k] == 0) {
+                    b[i++] = nums[k];
+                } else if (nums[k] == 2) {
+                    b[j--] = nums[k];
+                }
+            }
+            for(int k = i; k <=j; k++) {
+                b[k] = 1;
+            }
+            System.arraycopy(b, 0, nums,0, nums.length);
         }
     }
 
     public static void main(String[] args) {
         int[] nums = new int[]{0, 2, 1, 1, 2, 0, 1, 0, 1, 2, 2, 0, 0};
-        Solution s = new Solution();
+        SolutionSecond s = new SolutionSecond();
         s.sortColors(nums);
         for(int i = 0; i < nums.length; i++) {
             System.out.print(nums[i]);

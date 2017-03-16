@@ -10,6 +10,10 @@ As title. There is also Python version, see repo: pythonalgr.
 
 ## Q75: TODO
 * Only beats 6% with Time Complexity: O(2n), Space Complexity: O(1)
+* Second solution beats 64%. Time Complexity: O(n). Space Complexity: O(n). 
+* For second solution, Learned: 
+1. Keep eye on target result: 000011112222. Reason out the solution from answer structure. 
+2. try see the problem from different views. Different views may bring out simple solution. 
 
 ## Q94: TODO
 * My way is OK.
