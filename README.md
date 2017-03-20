@@ -5,6 +5,11 @@ As title. There is also Python version, see repo: pythonalgr.
 * Result: beat 32%. Time Complexity: O(n*n), Space Complexity: O(1)
 * Better solution?
 
+## Q20: Valid parentheses
+* Beats 30%. Not good. Time Complexity: O(n). More better way?
+* Encounter some issues about char <-> Character (when Character is null.)
+
+
 ## Q22: TODO
 * My way is too ugly. There is more concise and efficient way.
 
@@ -35,6 +40,10 @@ Loop 0: XXX
 Loop 1: XXX
 Loop 2: Complete(condition is not satisfied)
 ```
+
+## Q155. MinStack with O(1)
+* Beats 80%. Time Complexity: O(1), Space Complexity: O(n).
+* I got this answer from some book. 
 
 ## Q208. Implement trie tree (a.k.a prefix tree)
 * Result: beats 79%. Complexity Analysis: Time Complexity: insert/search O(len(word)), startsWith: O(len(prefix)). Space complexity: O(number of unique chars in input).
