@@ -54,6 +54,13 @@ Loop 2: Complete(condition is not satisfied)
 * Use two stacks to simulate the way human's brain how to compute the expression.
 * One stack is for operand, another stack is for operators. It is binary operation.
 
+## Q225. Implement stack usin queue.
+* Result: beats 90%. push() O(1), pop() O(n), top() O(1).
+× Easy one.
+
+## Q232: Implement Queue Use Stack.
+* Result: not stable. Just tried solution provided other guys. **Amortized** time complexity O(1) for both operation: push, peek, pop.
+
 ## Q315. TODO: Count of smallest numbers after itself.
 *First try failed: Time Limit Exceeded.
 * TODO.
