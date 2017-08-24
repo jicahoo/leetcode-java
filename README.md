@@ -88,4 +88,5 @@ Loop 2: Complete(condition is not satisfied)
         public String frequencySort(String s) {
 ```
 * Refernce https://www.byvoid.com/zhs/blog/sort-radix 
+* But it also has flaw: think about if the max frequence is very big, so you need big array. Check the code for details.
 
